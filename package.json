@@ -5,6 +5,7 @@
   "repository": "https://github.com/zhf2110/so-view.git",
   "license": "MIT",
   "devDependencies": {
-    "umi": "^2.6.17"
+    "umi": "^2.6.17",
+    "umi-plugin-react": "^1.7.6"
   }
 }
