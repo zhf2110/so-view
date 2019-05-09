@@ -22,12 +22,12 @@ let routes = [
         "component": require('../user/UserList.js').default
       },
       {
-        "component": () => React.createElement(require('D:/so-view/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false })
+        "component": () => React.createElement(require('/home/lufax/zhangf/sec/so-view/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false })
       }
     ]
   },
   {
-    "component": () => React.createElement(require('D:/so-view/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false })
+    "component": () => React.createElement(require('/home/lufax/zhangf/sec/so-view/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false })
   }
 ];
 window.g_routes = routes;

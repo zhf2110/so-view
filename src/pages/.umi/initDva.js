@@ -14,4 +14,4 @@ app.use(createLoading());
   app.use(plugin);
 });
 
-
+app.model({ namespace: 'UserListData', ...(require('D:/so-view/src/models/UserListData.js').default) });
